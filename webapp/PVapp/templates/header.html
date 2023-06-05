@@ -1,12 +1,12 @@
 {% load static %}
-<nav>
-    <ul>
-        <img class="logo" src="{% static 'pvcal-logo.png' %}">
-    </ul>
-    <ul>
-        <li><a>About Polycrystalline</a></li>
-        <li><a>About Monocrystalline</a></li>
-        <li><a>About Thin Film</a></li>
-        <li><a>Calculate Field</a></li>
-    </ul>
+<nav class="main-font">
+    <a href="index.html"><img class="logo" src="{% static 'pvcal-logo.png' %}"></a>
+    <div class="nav-links" id="navLinks">
+        <ul>
+            <li><a href="poly.html">About Polycrystalline</a></li>
+            <li><a href="mono.html">About Monocrystalline</a></li>
+            <li><a href="thin.html">About Thin Film</a></li>
+            <li><a href="calculate.html">Calculate Field</a></li>
+        </ul>
+    </div>
 </nav>
