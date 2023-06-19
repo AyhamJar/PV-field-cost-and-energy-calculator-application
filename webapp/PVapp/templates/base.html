@@ -18,9 +18,6 @@
             <a class="navbar-brand" href="/"><img src="{% static 'solar-panels.png' %}" alt="Logo image" width="30" height="24" class="d-inline-block align-text-top">PVcal</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="/poly">About Polycrystalline</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/mono">About Monocrystalline</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/thin">About Thin Film</a></li>
                     <li class="nav-item"><a class="nav-link" href="/calculate">Calculate Field</a></li>
                 </ul>
             </div>
@@ -29,6 +26,7 @@
 
     <div class="background">
         <h1>Calculate What You Need.</h1>
+        <button>Click Here</button>
     </div>
 
     {% block content %}
@@ -38,9 +36,6 @@
         <footer class="py-3 my-4">
           <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="/mono" class="nav-link px-2 text-body-secondary">About Monocrystalline</a></li>
-            <li class="nav-item"><a href="/poly" class="nav-link px-2 text-body-secondary">About Polycrystalline</a></li>
-            <li class="nav-item"><a href="/thin" class="nav-link px-2 text-body-secondary">About Thin Films</a></li>
             <li class="nav-item"><a href="/calculate" class="nav-link px-2 text-body-secondary">Calculate Field</a></li>
           </ul>
           <p class="text-center text-body-secondary">© 2023 PVcal, Inc</p>
